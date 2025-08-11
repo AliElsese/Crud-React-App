@@ -1,4 +1,5 @@
 import Image from "./Image";
+import Button from "./ui/Button";
 
 export default function ProductCard() {
     return (
@@ -28,8 +29,8 @@ export default function ProductCard() {
             </div>
 
             <div className="flex items-center justify-between space-x-2 mt-5">
-                <button className="bg-indigo-700 p-2 w-full rounded-md text-white">Edit</button>
-                <button className="bg-red-700 p-2 w-full rounded-md text-white">Destroy</button>
+                <Button className="bg-indigo-700" width={'w-full'} onClick={() => { alert('hi from edit!') }}>Edit</Button>
+                <Button className="bg-red-700" width={'w-full'} onClick={() => { alert('hi from delete!') }}>Destroy</Button>
             </div>
         </div>
     )
