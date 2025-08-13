@@ -145,6 +145,33 @@ export const productList = [
     },
 ];
 
+export const formInputList = [
+    {
+        id: "title",
+        name: "title",
+        label: "Product Title",
+        type: "text",
+    },
+    {
+        id: "description",
+        name: "description",
+        label: "Product Description",
+        type: "text",
+    },
+    {
+        id: "image",
+        name: "imageURL",
+        label: "Product Image URL",
+        type: "text",
+    },
+    {
+        id: "price",
+        name: "price",
+        label: "Product Price",
+        type: "text",
+    }
+]
+
 export const colors = [
     "#a855f7",
     "#2563eb",
